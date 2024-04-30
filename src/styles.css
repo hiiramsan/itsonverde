@@ -246,3 +246,99 @@ footer {
 .rule span {
     color: var(--green);
 }
+
+.encuesta {
+  padding: 100px;
+}
+
+.encuesta span {
+  color: var(--green);
+}
+
+.encuesta p {
+  width: 40%;
+}
+
+.encuesta .title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.encuesta .title-container .img img {
+  width: 100px;
+}
+
+.form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #319F43;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #1e7f32;
+}
+
+
+.container-thanks {
+  padding: 100px;
+}
+.thanks-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.thanks-page h1 {
+  color: #319F43;
+}
+
+.thanks-page p {
+  margin: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #319F43;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1e7f32;
+}

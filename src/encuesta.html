@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="./res/tabicon.ico" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#"
+            >ITSON <span>Verde</span>
+            <img src="./res/leaf-svgrepo-com.svg" alt=""
+          /></a>
+        </div>
+        <div class="links">
+          <a href="./index.html">Home</a>
+          <a href="./areaverde.html">Area Verde</a>
+          <a href="">Ambiente</a>
+          <a href="./normas.html">Normas</a>
+          <a href="./encuesta.html" class="active">Encuesta</a>
+        </div>
+        <div class="login-btn">
+          <a href="#">Log In</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="encuesta">
+      <div class="title-container">
+        <div class="info">
+          <p>Queremos saber tu <span>opinion...</span></p>
+          <h1>Encuesta</h1>
+          <p>
+            Dejanos comentarios sobre acontecimientos, posibles mejoras, dudas,
+            retroalimentación y mas.
+          </p>
+        </div>
+        <div class="img">
+            <img src="./res/feedback-svgrepo-com (1).svg" alt="">
+        </div>
+      </div>
+      <div class="form">
+        <form action="https://formsubmit.co/carloshiramsanchez@gmail.com" method="POST">
+            <div>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+                <input type="email" name="email" required placeholder="Email">
+            </div>
+            
+            <input type="hidden" name="_next" value="https://itsonverde.vercel.app/thanks.html">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div>
+                <textarea id="message" name="message" placeholder="Your message here"  cols="30" rows="10"></textarea>
+            </div>
+            
+            <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-left">
+        <p>ITSON Verde <img src="./res/leaf-svgrepo-com.svg" alt="" /></p>
+      </div>
+      <div class="footer-right">
+        <p>Derechos reservados &copy; 2024 NataGOD</p>
+      </div>
+    </footer>
+  </body>
+</html>
